@@ -1,0 +1,234 @@
+body {
+     background-color: #ddf0f8;
+     background-image: url('back1.jpg');
+     
+     
+   }
+   #profile {
+     width: 200px;
+     border-radius: 100px;
+     display: block;
+     margin-left: auto;
+    margin-right: auto;
+
+   }
+
+   .profile2 img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in;
+    transition: .3s ease-in;
+  }
+  .profile2:hover img {
+    -webkit-transform: scale(1);
+    transform: scale(1.2);
+  }
+
+    .links{
+      margin-left: 500px;
+      margin-right:500px;
+      justify-content: space-around;
+      display:flex;
+      
+      
+    }
+
+    #linkedin
+    {
+      width:40px;
+      height:50px;
+      /* filter: drop-shadow(5px 5px 10px lightblue); */
+    }
+    
+
+
+    .lin img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in;
+      transition: .3s ease-in;
+    }
+    .lin:hover img {
+      -webkit-transform: scale(1);
+      transform: scale(1.2);
+    }
+
+    #contact{
+      width:40px;
+      height:50px;
+    }
+
+    .con img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in;
+      transition: .3s ease-in;
+    }
+    .con:hover img {
+      -webkit-transform: scale(1);
+      transform: scale(1.2);
+    }
+
+    #mail{
+      width:40px;
+      height:50px;
+    }
+
+    .mai img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in;
+      transition: .3s ease-in;
+    }
+    .mai:hover img {
+      -webkit-transform: scale(1);
+      transform: scale(1.2);
+    }
+
+
+
+    #github{
+      width:40px;
+      height:50px;
+    }
+
+
+    .git img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in;
+      transition: .3s ease-in;
+    }
+    .git :hover img {
+      -webkit-transform: scale(1);
+      transform: scale(1.2);
+    }
+
+
+      #heading1{
+        color:#4F200D;
+      }
+
+      .profile2{
+        margin-left: 150px;
+        margin-right: 150px;
+        position: relative;
+      }
+
+    .description{
+      margin-left:120px;
+      margin-right: 120px;
+      border-radius: 20px;
+      
+    }
+    
+   
+   
+     .education{
+          margin-left:100px;
+          margin-right: 100px;
+          background-color: #8696FE;
+          border-radius: 30px;
+          box-shadow: 10px 10px;
+     }
+    .edu1 {
+      margin-left: 40px;
+    }
+
+    .education:hover{
+      transform: scale(1.01);
+      /* background: #19A7CE; */
+      z-index: 2;
+      box-shadow: 2px 2px 2px #000;
+      
+    }
+
+     
+     .skills{
+          margin-left:100px;
+          margin-right: 100px;
+          background-color: #8696FE;
+          border-radius: 30px;
+          box-shadow: 10px 10px;
+     }
+
+     .skill1 {
+      margin-left: 40px;
+    }
+
+    .skills:hover{
+      transform: scale(1.01);
+      /* background: #04cb68; */
+      z-index: 2;
+      box-shadow: 2px 2px 2px #000;
+      
+    }
+     .achievements{
+      margin-left:100px;
+      margin-right: 100px;
+      background-color: #8696FE;
+          border-radius: 30px;
+          box-shadow: 10px 10px;
+ }
+
+ .ach1 {
+  margin-left: 40px;
+}
+
+.achievements:hover{
+  transform: scale(1.01);
+  /* background: #04cb68; */
+  z-index: 2;
+  box-shadow: 2px 2px 2px #000;
+  
+}
+ .projects{
+  margin-left:100px;
+  margin-right: 100px;
+  background-color: #8696FE;
+          border-radius: 30px;
+          box-shadow: 10px 10px ;
+}
+.proj1 {
+  margin-left: 40px;
+}
+
+.projects:hover{
+  transform: scale(1.01);
+  /* background: #04cb68; */
+  z-index: 2;
+  box-shadow: 2px 2px 2px #000;
+  
+}
+.certifications{
+  margin-left:100px;
+  margin-right: 100px;
+  background-color: #8696FE;
+          border-radius: 30px;
+          box-shadow: 10px 10px ;
+}
+
+
+.cert1 {
+  margin-left: 40px;
+}
+
+.certifications:hover{
+  transform: scale(1.01);
+  /* background: #04cb68; */
+  z-index: 2;
+  box-shadow: 2px 2px 2px #000;
+  
+}
+
+   #cgpa {
+     word-spacing: 50px;
+   }
+   #name{
+     color: #041562;
+     text-align: center;
+   }
+hr{
+  margin-left: 90px;
+  margin-right:90px;
+}
